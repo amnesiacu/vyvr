@@ -1,0 +1,23 @@
+//THE SCSS FILE
+//AUTHOR: Jonas Van de Vyver
+
+$cl-dark:      #3C3C3C;
+$cl-attn:      #FF6276;
+$cl-light:     #EDF4F7;
+$cl-yellow:    #B58900;
+$cl-base:      rgba(7, 54, 66, 0.9);
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    margin:             0px;
+    background-color:   $cl-base;
+}
+
+@import 'components/banner'
