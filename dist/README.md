@@ -1,2 +1,3 @@
-# vyvr
-Repo of my homepage
+# VYVR
+https://vyvr.be
+## Repo of my homepage
