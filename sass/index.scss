@@ -20,4 +20,5 @@ body{
     background-color:   $cl-base;
 }
 
-@import 'components/banner'
+@import 'base';
+@import 'components/banner';

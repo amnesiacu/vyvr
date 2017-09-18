@@ -9,7 +9,7 @@
         "eslint": "eslint \"./**/*.js\"",
         "lint": "yarn eslint",
         "test": "mocha --compilers js:babel-core/register",
-        "build": "rm -rf dist && babel ./ --out-dir dist/ --ignore ./sass,./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+        "build": "rm -rf dist && babel ./ --out-dir dist/ --ignore ./sass,./node_modules,./.babelrc,./package.json,./npm-debug.log,./README.md,./yarn.lock --copy-files",
         "serve": "node dist/app.js",
         "dev": "nodemon -w app.js -w views/index.vue -w views/* --exec \"yarn build && node dist/app.js \""
     },

@@ -1,7 +1,8 @@
 <template lang="html">
     <div class="banner is-loading">
         <h1> {{ title }} </h1>
-        <div class="banner__links">
+
+        <div class="banner__links tile blueBackground">
             <span>
                 <a href='https://www.linkedin.com/in/jonasvandevyver' target='_blank'>LinkedIn</a>
             </span>
@@ -15,6 +16,20 @@
                 <a href='https://twitter.com/amnesiacu' target='_blank'>Twitter</a>
             </span>
         </div>
+
+        <div class="banner__links tile whiteBackground">
+            <span>
+                <a href='https://cryptobeleggers.com' target='_blank'>
+                    <img src="../img/cryptobeleggers.png" style="width:50px; height: 50px;">
+                </a>
+            </span>
+            <span>
+                <a href='https://krypto.be' target='_blank'>
+                    <img src="../img/krypto.png" style="width:50px; height: 50px;">
+                </a>
+            </span>
+        </div>
+
         <div class="banner__resume">
             <p><small><a href='/doc/cv.pdf' target='_blank'> download resume </a></small></p>
         </div>

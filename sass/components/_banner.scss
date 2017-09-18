@@ -1,8 +1,4 @@
 .banner {
-    // background: url('../img/banner_1600.jpg');
-    // background: url('../img/city_landscapes.gif');
-    // background: url(https://static.pexels.com/photos/109399/pexels-photo-109399.jpeg);
-    // background: url(https://static.pexels.com/photos/34647/pexels-photo.jpg);
     background: url('../img/banner_2_1600.jpg');
     background-size: cover, cover;
     background-position: center, center;
@@ -22,32 +18,9 @@
     flex-direction: column;
 
     &__links{
-        background-color: $cl-base;
         opacity: 0.7;
-        border-radius: 5px;
-        padding: 15px 20px;
-        // text-transform: uppercase;
-        margin-left: 5px;
-        a{
-            padding: 0 10px;
-            color: $cl-light;
-            text-decoration: none;
-            outline: none;
-            &:hover{
-                color: $cl-yellow;
-            }
-        }
     }
-    &__resume{
-        a{
-            color: $cl-light;
-            text-decoration: none;
-            outline: none;
-            &:hover{
-                color: $cl-yellow;
-            }
-        }
-    }
+
     h1 {
         font-family: Verdana,Arial,sans-serif;
         font-size: 2.5rem;
