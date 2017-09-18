@@ -31,7 +31,7 @@
         </div>
 
         <div class="banner__resume">
-            <p><small><a href='/doc/cv.pdf' target='_blank'> download resume </a></small></p>
+            <p><small><a href='/docs/cv.pdf' target='_blank'> download resume </a></small></p>
         </div>
     </div>
 </template>
